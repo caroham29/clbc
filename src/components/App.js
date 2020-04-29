@@ -19,7 +19,7 @@ class App extends React.Component {
     }
 
     return (
-      <div>
+      <div class="wrapper">
         <div className="parallax">
           <div className="flexMeMain">
             <div className="flexMeMainDiv">
@@ -43,12 +43,14 @@ class App extends React.Component {
             </button>
           </div>
         </div>
+
         <div className="stuff">
           <div className="childStuff">
             <h1 className="childHead">I HAVE DECIDED</h1>
             <h4 className="childHeadChild">TO FOLLOW JESUS</h4>
           </div>
         </div>
+
         <div className="secondParallax">
           <div className="relative">
             <div className="AbsoluteCenterDiv">
@@ -58,6 +60,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        
         <div className="thirdParallax">
           <h1 >FOLLOW US</h1>
           <div className="flex">

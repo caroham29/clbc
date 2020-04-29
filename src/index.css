@@ -27,6 +27,7 @@ code {
     monospace;
 }
 .parallax {
+  
   /* The image used */
   background: url("https://www.dropbox.com/s/z1t1t6ios32yh8g/Untitled%20design%20%281%29.jpg?raw=1");
   /* Set a specific height */

@@ -27,24 +27,21 @@ code {
     monospace;
 }
 .parallax {
-  
+
   /* The image used */
   background: url("https://www.dropbox.com/s/z1t1t6ios32yh8g/Untitled%20design%20%281%29.jpg?raw=1");
   /* Set a specific height */
   height: 100vh;
   padding-top:35px;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-attachment: fixed;
+    background-color: #fff;
+    -webkit-background-size: calc(100vw) calc(100vh);
+    -moz-background-size: calc(100vw) calc(100vh);
+    -o-background-size: calc(100vw) calc(100vh);
+    background-size: calc(100vw) calc(100vh);
 }
 .secondParallax {
   background: url("https://www.dropbox.com/s/xhbfojcpcvkvlgb/I%20WANT%20TO%20%285%29.png?raw=1");

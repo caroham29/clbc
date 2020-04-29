@@ -13,7 +13,7 @@
     "redux": "^4.0.5"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "start": "react-scripts start",
     "heroku-postbuild": "webpack -p",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -36,7 +36,14 @@ code {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
 }
 .secondParallax {
   background: url("https://www.dropbox.com/s/xhbfojcpcvkvlgb/I%20WANT%20TO%20%285%29.png?raw=1");

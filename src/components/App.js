@@ -9,7 +9,7 @@ import { connect } from 'react-redux'
 
 class App extends React.Component {
   componentDidMount () {
-    const { dispatch } = this.props
+    // const { dispatch } = this.props
 
     // dispatch(handleInitialData())
   }
@@ -30,16 +30,16 @@ class App extends React.Component {
             </div>
             <div className="flexMeMainDiv right">
               <button className="homeSecondaryBtn">
-              <a target="_blank" href="https://www.youtube.com/user/pastorrodcochran1" >WATCH NOW</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/pastorrodcochran1" >WATCH NOW</a>
               </button>
               <button className="homeSecondaryBtn">
-                <a >GIVE</a>
+                <a target="_blank"  href="https://www.youtube.com/user/pastorrodcochran1" rel="noopener noreferrer">GIVE</a>
               </button>
             </div>
           </div>
           <div className="AbsoluteCenterDiv">
             <button className="HomeWatchNowButton">
-              <a target="_blank" href="https://www.youtube.com/user/pastorrodcochran1" >CLICK TO WATCH</a>
+              <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/pastorrodcochran1" >CLICK TO WATCH</a>
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@ class App extends React.Component {
           <div className="relative">
             <div className="AbsoluteCenterDiv">
               <button className="HomeWatchNowButton">
-                <a target="_blank" href="https://www.youtube.com/user/pastorrodcochran1" >START NOW</a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/user/pastorrodcochran1" >START NOW</a>
               </button>
             </div>
           </div>
